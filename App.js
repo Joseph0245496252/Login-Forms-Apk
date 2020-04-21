@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 import LoginScreen from './LoginScreen'
+import ContactsScreen from './ContactsScreen';
+import Contact from './components/Contact'
+
 
 
 class App extends Component {
@@ -18,7 +21,10 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <LoginScreen />
+        {/* <LoginScreen /> */}
+        <ContactsScreen />
+        {/* <Contact /> */}
+
         
       </View>
     );
